@@ -20,7 +20,7 @@ else:
         from config import Development as Config
     else:
         logging.warning("No config.py Found!")
-        logging.info("Please run the command, again, after creating config.py similar to README.md")
+        logging.info("Silakan jalankan perintah, sekali lagi, setelah membuat config.py mirip dengan README.md")
         sys.exit(1)
 
 
@@ -66,8 +66,8 @@ async def main():
                     StringSession(),
                     api_id=APP_ID,
                     api_hash=API_HASH,
-                    device_model="@GetUniBorgBot TUI",
-                    system_version="@UniBorg",
+                    device_model="@diemmmmmmmmmm",
+                    system_version="@diemmmmmmmmmm",
                     app_version="9.6.9",
                     lang_code="ml"
                 )
@@ -94,8 +94,8 @@ async def main():
                         await conv.send_message(
                             Translation.ACC_PROK_WITH_TFA,
                             buttons=[
-                                custom.Button.url("TnC", "https://backend.shrimadhavuk.me/TermsAndConditions"),
-                                custom.Button.url("Privacy Policy", "https://backend.shrimadhavuk.me/PrivacyPolicy")
+                                custom.Button.url("Owner", "https://t.me/diemmmmmmmmmm"),
+                                custom.Button.url("Privacy ", "https://t.me/diemmmmmmmmmm")
                             ]
                         )
                         response = conv.wait_event(events.NewMessage(
